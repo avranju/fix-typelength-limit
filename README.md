@@ -31,4 +31,4 @@ Run the program like so from the root of your crate's source:
 fix-typelength-limit cargo build --release
 ```
 
-You can add any build option as your normally would.
+You can add any build option as you normally would.

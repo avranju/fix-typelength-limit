@@ -34,7 +34,7 @@ fn main() {
                 .map(|m| m.as_str())
             {
                 fix_limit(new_limit).expect("Replacing code failed");
-                log("Fixed typed length limit error. Retrying build.");
+                log("Fixed type length limit error. Retrying build.");
             } else {
                 log("Build error was not type length limit error.");
                 break;
@@ -44,6 +44,8 @@ fn main() {
             break;
         }
     }
+
+    log("RUN COMPLETE.");
 }
 
 fn log(msg: &str) {
