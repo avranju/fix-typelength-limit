@@ -20,7 +20,7 @@ to some other error type.
 Clone the source and run the following to install the program:
 
 ```
-cargo install --path . --force
+cargo install --path .
 ```
 
 ## Run
@@ -28,7 +28,7 @@ cargo install --path . --force
 Run the program like so from the root of your crate's source:
 
 ```
-fix-typelength-limit cargo build --release
+fix-typelength-limit "cargo build --release"
 ```
 
 You can add any build option as you normally would.
